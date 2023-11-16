@@ -39,7 +39,6 @@ import java.io.File;
 import java.io.IOException;
 import java.text.DecimalFormat;
 
-
 public class NumberRecognizerController {
     public NumberRecognizerController(){
         Runtime.getRuntime().addShutdownHook(new Thread( ()-> {
@@ -83,21 +82,6 @@ public class NumberRecognizerController {
             }
         };
         new Thread(loadModelTask).start();
-//        Platform.runLater(()->{
-//                try {
-//                    loadModel();
-//                } catch (Exception e) {
-//                    throw new RuntimeException(e);
-//                }
-//        });
-
-
-
-//        mainPane.sceneProperty().addListener((observable, oldScene,newScene) -> {
-//            if(newScene != null){
-//                initialAlert();
-//            }
-//        });
 
     }
     protected static void initialAlert(){
@@ -132,15 +116,6 @@ public class NumberRecognizerController {
         gc.clearRect(0.0,0.0,canvas.getWidth(),canvas.getHeight());
     }
 
-
-//    @FXML
-//    protected void onHelloButtonClick() {
-//        welcomeText.setText("Welcome to JavaFX Application!");
-//    }
-//    @FXML
-//    protected void onCleanButtonClick() {
-//        welcomeText.setText("");
-//    }
     @FXML
     private void submitBtnEvent() {
         progressBar.setVisible(true);
@@ -157,25 +132,6 @@ public class NumberRecognizerController {
             }
         });
 
-//        Thread predictionThread = new Thread() {
-//            @Override
-//            protected Prediction call() throws Exception {
-//                try{
-//                    return recognizeNumber();
-//                } catch (Exception e){
-//                    e.printStackTrace();
-//                    return null;
-//                }
-//            }
-//        };
-
-//        predictionTask.setOnSucceeded(event -> {
-//
-//            Prediction prediction = predictionTask.getValue();
-//
-//
-//        });
-//        new Thread(predictionTask).start();
         setProgressBar(progressBar);
         predictionThread.start();
 
@@ -225,14 +181,6 @@ public class NumberRecognizerController {
 
     }
 
-//    private Image makeCanvasToImage(){
-//        Image image = canvas.snapshot(null,null);
-//        Image resizedImage = resizeImage(image,28,28);
-//        //Image grayImage = convertToGrayScale(resizedImage);
-//        Image invertedImage = invertImage(resizedImage);
-//
-//        return invertedImage;
-//    }
 
     private Image resizeImage(Image image, int width, int height){
         ImageView imageView = new ImageView(image);
@@ -241,21 +189,6 @@ public class NumberRecognizerController {
         imageView.setFitHeight(height);
         return imageView.snapshot(null,null);
     }
-
-//    private Image convertToGrayScale(Image image){
-//        WritableImage grayImage = new WritableImage((int) image.getWidth(), (int)image.getHeight());
-//        PixelReader pixelReader = image.getPixelReader();
-//        PixelWriter pixelWriter = grayImage.getPixelWriter();
-//
-//        for (int x=0; x< image.getWidth();x++){
-//            for(int y=0; y<image.getHeight();y++){
-//                //Color color = pixelReader.getColor(x,y);
-//                //double grayValue = (color.getRed()+color.getBlue()+color.getGreen())/3.0;
-//                pixelWriter.setColor(x,y,pixelReader.getColor(x,y).grayscale());
-//            }
-//        }
-//        return grayImage;
-//    }
 
     private Image invertImage(Image image){
         WritableImage invertedImage = new WritableImage((int) image.getWidth(), (int)image.getHeight());
@@ -281,39 +214,6 @@ public class NumberRecognizerController {
             System.out.println("Error: "+e.getMessage());
         }
     }
-//    private double[][] getPixelDataFromCanvas(){
-//        // Get data from the Canvas
-//        int targetWidth = 28;
-//        int targetHeight = 28;
-//        Image image = canvas.snapshot(null,null);
-//        Image resizedImage = resizeImage(image, targetWidth,targetHeight);
-//        PixelReader pixelReader = resizedImage.getPixelReader();
-//        //
-//        //int originalWidth = (int) image.getWidth();
-//        //int originalHeight = (int) image.getHeight();
-//
-//
-//
-//        double[][] pixelData = new double[targetHeight][targetWidth];
-//
-////        double widthRatio = (double) originalWidth/targetWidth;
-////        double heightRatio = (double) originalHeight/targetHeight;
-//
-//        for(int y = 0; y < targetHeight; y++){
-//            for(int x = 0; x<targetWidth;x++){
-////                int originalX = (int) (x* widthRatio);
-////                int originalY = (int) (y*heightRatio);
-//
-//                //Color color = pixelReader.getColor(originalX,originalY);
-//                Color color = pixelReader.getColor(x,y);
-//                Color invertedColor = color.invert();
-//                double grayValue = (invertedColor.getRed() + invertedColor.getBlue() +invertedColor.getGreen())/3.0;
-//                pixelData[y][x] = grayValue;
-//            }
-//        }
-//
-//        return pixelData;
-//    }
 
     private void setProgressBar(ProgressBar pb){
         pb.setProgress(0.3);
@@ -325,9 +225,4 @@ public class NumberRecognizerController {
         timeline.play();
 
     }
-
-
-
-
-
 }

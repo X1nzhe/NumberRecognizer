@@ -17,6 +17,10 @@ public class Prediction {
     private int secondPossibleNum;
     private float secondPossibleNumPossibility;
 
+    public Prediction() {
+
+    }
+
     public int getMostPossibleNum() {
         return mostPossibleNum;
     }
