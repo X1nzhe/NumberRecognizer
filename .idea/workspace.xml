@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b22a2d5-fe5e-4e03-a360-18ef4f373719" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neu/info5100/numberrecognizer/NumberRecognizerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/NumberRecognizer_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/NumberRecognizer_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/neu/info5100/numberrecognizer/NumberRecognizerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neu/info5100/numberrecognizer/NumberRecognizerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neu/info5100/numberrecognizer/NumberRecognizerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neu/info5100/numberrecognizer/NumberRecognizerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neu/info5100/numberrecognizer/Prediction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neu/info5100/numberrecognizer/Prediction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/xinzheyuan/Desktop/INFO5100 App Dev/temp/NumberRecognizer",
+    "last_opened_file_path": "D:/ComputerScience/Class/2023 Fall/INFO5100/FinalDigit",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

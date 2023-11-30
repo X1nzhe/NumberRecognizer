@@ -33,7 +33,7 @@ public class NumberRecognizerApplication extends Application {
             stage.setResizable(false);
             stage.show();
 //            Platform.runLater(NumberRecognizerController::initialAlert);
-            Platform.runLater(() -> NumberRecognizerControllerTest.initialAlert());
+            Platform.runLater(() -> NumberRecognizerControllerTest.initialAlert()); //
 
 
         }catch (Exception e){
