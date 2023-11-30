@@ -1,10 +1,11 @@
 Manifest-Version: 1.0
 Main-Class: com.neu.info5100.numberrecognizer.Launcher
-Class-Path: ndarray-0.4.0.jar javafx-controls-20.0.1.jar javafx-fxml-20.
- 0.1.jar javafx-base-20.0.1-win.jar tensorflow-core-platform-0.5.0.jar t
- ensorflow-core-api-0.5.0.jar javafx-graphics-20.0.1.jar javacpp-1.5.8-w
- indows-x86_64.jar javafx-base-20.0.1.jar javafx-swing-18-win.jar javafx
- -controls-20.0.1-win.jar javafx-graphics-20.0.1-win.jar protobuf-java-3
- .19.4.jar javacpp-1.5.8.jar tensorflow-core-api-0.5.0-windows-x86_64.ja
- r javafx-swing-18.jar javafx-fxml-20.0.1-win.jar
+Class-Path: javafx-graphics-20.0.1.jar tensorflow-core-platform-0.5.0.ja
+ r javacpp-1.5.8-windows-x86_64.jar javafx-base-20.0.1.jar javafx-swing-
+ 18.jar javacpp-1.5.8.jar javacpp-1.5.8-macosx-x86_64.jar tensorflow-cor
+ e-api-0.5.0-windows-x86_64.jar javafx-fxml-20.0.1.jar tensorflow-core-a
+ pi-0.5.0-macosx-x86_64.jar protobuf-java-3.19.4.jar javafx-controls-20.
+ 0.1-mac.jar javafx-fxml-20.0.1-mac.jar javafx-base-20.0.1-mac.jar javaf
+ x-controls-20.0.1.jar javafx-swing-18-mac.jar tensorflow-core-api-0.5.0
+ .jar ndarray-0.4.0.jar javafx-graphics-20.0.1-mac.jar
 
