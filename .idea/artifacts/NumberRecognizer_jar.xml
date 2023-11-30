@@ -8,23 +8,25 @@
         </element>
         <element id="module-output" name="NumberRecognizer" />
       </element>
-      <element id="library" level="project" name="Maven: org.tensorflow:ndarray:0.4.0" />
-      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:20.0.1" />
-      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:20.0.1" />
-      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:20.0.1" />
-      <element id="library" level="project" name="Maven: org.tensorflow:tensorflow-core-platform:0.5.0" />
-      <element id="library" level="project" name="Maven: org.tensorflow:tensorflow-core-api:0.5.0" />
       <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:20.0.1" />
+      <element id="library" level="project" name="Maven: org.tensorflow:tensorflow-core-platform:0.5.0" />
       <element id="library" level="project" name="Maven: org.bytedeco:javacpp:windows-x86_64:1.5.8" />
       <element id="library" level="project" name="Maven: org.openjfx:javafx-base:20.0.1" />
-      <element id="library" level="project" name="Maven: org.openjfx:javafx-swing:win:18" />
-      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:20.0.1" />
-      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:20.0.1" />
-      <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
-      <element id="library" level="project" name="Maven: org.bytedeco:javacpp:1.5.8" />
-      <element id="library" level="project" name="Maven: org.tensorflow:tensorflow-core-api:windows-x86_64:0.5.0" />
       <element id="library" level="project" name="Maven: org.openjfx:javafx-swing:18" />
-      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:20.0.1" />
+      <element id="library" level="project" name="Maven: org.bytedeco:javacpp:1.5.8" />
+      <element id="library" level="project" name="Maven: org.bytedeco:javacpp:macosx-x86_64:1.5.8" />
+      <element id="library" level="project" name="Maven: org.tensorflow:tensorflow-core-api:windows-x86_64:0.5.0" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:20.0.1" />
+      <element id="library" level="project" name="Maven: org.tensorflow:tensorflow-core-api:macosx-x86_64:0.5.0" />
+      <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:mac:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:mac:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:mac:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-swing:mac:18" />
+      <element id="library" level="project" name="Maven: org.tensorflow:tensorflow-core-api:0.5.0" />
+      <element id="library" level="project" name="Maven: org.tensorflow:ndarray:0.4.0" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:mac:20.0.1" />
     </root>
   </artifact>
 </component>
