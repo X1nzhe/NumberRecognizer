@@ -1,10 +1,10 @@
 /*
 NEU INFO 5100, Final Project - Number Recognizer
-Author:
-    Name: Xinzhe Yuan, NUID:
-    Name: Jia Xu, NUID:
-Date: 13 Nov 2023
-Version: 0.1
+ Author:
+     Name: Xinzhe Yuan, NUID:002641096 , Email: yuan.xinz@northeastern.edu
+     Name: Jia Xu, NUID:002222689， Email: jia.xu5@northeastern.edu
+ Date: 5 Dec 2023
+ Version: 1.0
 
 Reference
 https://stackoverflow.com/questions/49343256/threads-in-javafx-not-on-fx-application-thread
